@@ -13,6 +13,7 @@ const customizationSlice = createSlice({
     initialState,
     reducers: {
         menuOpen: (state, action) => {
+            let id;
             id = action.payload.id;
             state.isOpen = [id];
         },
