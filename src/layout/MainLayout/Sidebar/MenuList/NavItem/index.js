@@ -7,9 +7,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useTheme } from '@mui/material/styles';
 import { Avatar, Chip, ListItemButton, ListItemIcon, ListItemText, Typography, useMediaQuery } from '@mui/material';
 
-// project imports
-import { MENU_OPEN, SET_MENU } from 'app/actions';
-
 // assets
 import FiberManualRecordIcon from '@mui/icons-material/FiberManualRecord';
 import { menuOpen } from 'features/customization/customizationSlice';

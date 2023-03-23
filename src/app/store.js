@@ -9,6 +9,4 @@ const store = configureStore({
     }
 });
 
-const persister = 'Free';
-
-export { store, persister };
+export { store };
