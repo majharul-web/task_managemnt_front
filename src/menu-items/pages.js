@@ -11,7 +11,7 @@ const icons = {
 const pages = {
     id: 'pages',
     title: 'Pages',
-    caption: 'Pages Caption',
+    caption: '',
     type: 'group',
     children: [
         {
@@ -22,18 +22,16 @@ const pages = {
 
             children: [
                 {
-                    id: 'login3',
+                    id: 'login',
                     title: 'Login',
                     type: 'item',
-                    url: '/pages/login/login3',
-                    target: true
+                    url: '/login'
                 },
                 {
-                    id: 'register3',
+                    id: 'register',
                     title: 'Register',
                     type: 'item',
-                    url: '/pages/register/register3',
-                    target: true
+                    url: 'register'
                 }
             ]
         }
